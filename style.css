@@ -1,0 +1,133 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.bar {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 19px 50px;
+}
+
+.navbar {
+  background-color: black;
+  height: 50px;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 111px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+.navbar li {
+  color: #ffffff;
+  width: 210px;
+  float: right;
+  display: block;
+  padding-top: 16px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 14px;
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  color: rgba(207, 203, 203, 0.863);
+}
+.heroimg {
+  cursor: pointer;
+  width: 1000px;
+}
+
+.slider {
+  padding: 50px;
+  width: 1000px;
+  height: 225px;
+  align-items: flex-start;
+  background-origin: padding-box;
+  column-gap: 80px;
+  display: flex;
+  font-size: 16px;
+  height: 125px;
+  line-height: 20.8px;
+  row-gap: 80px;
+  vertical-align: baseline;
+  width: 1000px;
+}
+
+.slideritm {
+  width: 85px;
+  vertical-align: middle;
+  height: 85px;
+  cursor: pointer;
+}
+.slidertxt {
+  vertical-align: baseline;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: arial;
+  color: black;
+}
+
+.slider2 {
+  vertical-align: baseline;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 12.8px;
+  padding-bottom: 12.8px;
+}
+
+.slider2 h4 {
+  display: flex;
+  column-gap: 40px;
+  justify-content: flex-start;
+  row-gap: 40px;
+  align-items: center;
+  vertical-align: baseline;
+  font-size: 25px;
+}
+
+.product-slider{
+  align-items: center;
+  padding: 40px;
+  justify-content: center;
+  height: 400.984px;
+  display: flex;
+  width: 1000px;
+}
+.products{
+  align-items: center;
+  column-gap: 20px;
+  display: flex;
+  justify-content: center;
+  line-height: 20.8px;
+  row-gap: 20px;
+  vertical-align: baseline;
+  width: 1960;
+}
+
+.product{
+  vertical-align: middle;
+  overflow-y: clip;
+  overflow-x: clip;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  border: 2px solid #3131313f;
+  cursor: pointer;
+}
